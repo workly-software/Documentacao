@@ -1,6 +1,6 @@
 <div align="center" id="inicio">
 
-# ![Logo da Workly](frontend/assets/img2/logo.png)
+# ![Logo da Workly](frontend/assets/Imagens/logo.png)
 ### Plataforma digital que conecta freelancers e contratantes de forma segura e eficiente.
 
 ***
@@ -179,7 +179,7 @@ Um **Documento de Requisitos de Sistema (DRS)** é um documento formal que descr
 
 O Modelo de negócios da plataformase encontra abaixo:
 
-[![Modelo de negocios](/frontend/assets/img2/Modelo%20de%20Negocios%20Canvas%20WORKLY.png)](/frontend/assets/img2/Modelo%20de%20Negocios%20Canvas%20WORKLY.png)
+[![Modelo de negocios](/frontend/assets/Imagens/Modelo%20de%20Negocios%20Canvas%20WORKLY.png)](/frontend/assets/Imagens/Modelo%20de%20Negocios%20Canvas%20WORKLY.png)
 
 <br>
 
@@ -275,7 +275,7 @@ A organização é perfeitamente capaz de executar o projeto e concluí-lo. Onde
 
 ### 📊 Diagrama Lógico - Caso de Uso
 
-[![Diagramas da Aplicação](frontend/assets/img2/Casos%20de%20uso.png)](frontend/assets/img2/Casos%20de%20uso.png)
+[![Diagramas da Aplicação](frontend/assets/Imagens/Casos%20de%20uso.png)](frontend/assets/Imagens/Casos%20de%20uso.png)
 
 **Clique na imagem para ampliar** 🔍
  
@@ -392,21 +392,21 @@ A organização é perfeitamente capaz de executar o projeto e concluí-lo. Onde
 
 ###  🏗️ Diagrama de Classes
  
-[![Diagrama de Classes](frontend/assets/img2/Workly.vpd.png)](frontend/assets/img2/Workly.vpd.png)
+[![Diagrama de Classes](frontend/assets/Imagens/Workly.vpd.png)](frontend/assets/Imagens/Workly.vpd.png)
 **Clique na imagem para ampliar** 🔍
  
 <br>
 
 ### 🗄️ Diagrama Entidade-Relacionamento
  
-[![Diagrama ER](frontend/assets/img2/WorklyDER.png)](frontend/assets/img2/WorklyDER.png)
+[![Diagrama ER](frontend/assets/Imagens/WorklyDER.png)](frontend/assets/Imagens/WorklyDER.png)
 **Clique na imagem para ampliar** 🔍
 
 <br>
  
 ### 🔄 Diagrama de Processo de Negócio (BPMN)
  
-[![Diagrama BPMN](frontend/assets/img2/BPMN-Workly.png)](frontend/assets/img2/BPMN-Workly.png)
+[![Diagrama BPMN](frontend/assets/Imagens/BPMN-Workly.png)](frontend/assets/Imagens/BPMN-Workly.png)
  **Clique na imagem para ampliar** 🔍
 
 <p align="right"><a href="#inicio">⬆️️️ Voltar ao início</a></p>
@@ -419,7 +419,7 @@ A organização é perfeitamente capaz de executar o projeto e concluí-lo. Onde
 
 A paleta de cores da Workly foi selecionada para transmitir profissionalismo, confiança e modernidade. As cores principais e as utilizadas em detalhes, tela de fundo e como cor da fonte foram escolhidas para garantir uma identidade visual coesa e agradável, facilitando a usabilidade e a experiência do usuário.
 
-[![Palheta de cores](frontend/assets/img2/Palheta%20de%20cores.png)](frontend/assets/img2/Palheta%20de%20cores.png)
+[![Palheta de cores](frontend/assets/Imagens/Palheta%20de%20cores.png)](frontend/assets/Imagens/Palheta%20de%20cores.png)
 **Clique na imagem para ampliar** 🔍
 
 <br>
@@ -445,7 +445,7 @@ O logotipo da Workly é um **isotipo** que utiliza vetores e a fonte Montserrat.
 
 ### 🧭 Modelo de Navegação
 
-[![Modelo de navegação](frontend/assets/img2/Modelo%20de%20navegacao.png)](frontend/assets/img2/Modelo%20de%20navegacao.png)
+[![Modelo de navegação](frontend/assets/Imagens/Modelo%20de%20navegacao.png)](frontend/assets/Imagens/Modelo%20de%20navegacao.png)
 **Clique na imagem para ampliar** 🔍
 
 <p align="right"><a href="#inicio">[⬆️️ Voltar ao início]</a></p>
@@ -466,7 +466,7 @@ A aplicação foi desenvolvida inicialmente como uma **página estática**, inco
  
 📁 **Arquivos e documentação** estão armazenados neste GitHub.
 
-[![Pagina inicial](frontend/assets/img2/paginainicial.png)](https://www.figma.com/design/hYmRgDqf9kCFHGjJNyExRh/Prot%C3%B3tipo-P.I?node-id=3-13&t=OfXh8xe9dPCxdqg8-4)
+[![Pagina inicial](frontend/assets/Imagens/paginainicial.png)](https://www.figma.com/design/hYmRgDqf9kCFHGjJNyExRh/Prot%C3%B3tipo-P.I?node-id=3-13&t=OfXh8xe9dPCxdqg8-4)
 **Clique na imagem para ampliar** 🔍
 
 <br>
