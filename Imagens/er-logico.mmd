@@ -1,0 +1,82 @@
+erDiagram
+    USUARIO {
+        ObjectId _id PK
+        string nome
+        string email UK
+        string senha "hash bcrypt"
+        string cpf UK
+        string tipoConta "Freelancer | Contratante"
+        number avaliacaoMedia
+        number totalAvaliacoes
+    }
+    CATEGORIA {
+        ObjectId _id PK
+        number legacyId UK
+        string nome
+        string slug UK
+    }
+    SERVICO {
+        ObjectId _id PK
+        string nome
+        string descricao
+        number preco
+        boolean precoNegociavel
+        boolean valorCombinar
+        ObjectId categoria FK
+        ObjectId freelancer FK
+        boolean removido
+    }
+    CONTRATO {
+        ObjectId _id PK
+        ObjectId cliente FK
+        ObjectId freelancer FK
+        ObjectId servico FK
+        number preco
+        string tipoContratacao "fixo | negociavel | combinar"
+        string status
+        array historico "eventos de negociação"
+    }
+    MENSAGEM {
+        ObjectId _id PK
+        ObjectId contrato FK
+        ObjectId remetente FK
+        string texto
+        boolean lida
+    }
+    AVALIACAO {
+        ObjectId _id PK
+        ObjectId autor FK
+        ObjectId freelancer FK
+        ObjectId servico FK
+        ObjectId contrato FK
+        number notaServico
+        number notaFreelancer
+        string comentario
+    }
+    FAVORITO {
+        ObjectId _id PK
+        ObjectId usuario FK
+        ObjectId servico FK
+    }
+    NOTIFICACAO {
+        ObjectId _id PK
+        ObjectId destinatario FK
+        string tipo
+        string titulo
+        string mensagem
+        boolean lida
+    }
+    SESSAO_REVOGADA {
+        ObjectId _id PK
+        string jti UK
+        date expiraEm "TTL"
+    }
+    USUARIO ||--o{ SERVICO : oferece
+    CATEGORIA ||--o{ SERVICO : classifica
+    USUARIO ||--o{ CONTRATO : participa
+    SERVICO ||--o{ CONTRATO : origina
+    CONTRATO ||--o{ MENSAGEM : possui
+    CONTRATO ||--o{ AVALIACAO : gera
+    USUARIO ||--o{ FAVORITO : salva
+    SERVICO ||--o{ FAVORITO : "é salvo em"
+    USUARIO ||--o{ NOTIFICACAO : recebe

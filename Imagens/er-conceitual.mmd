@@ -1,0 +1,18 @@
+erDiagram
+    USUARIO ||--o{ SERVICO : "oferece (freelancer)"
+    CATEGORIA ||--o{ SERVICO : classifica
+    USUARIO ||--o{ CONTRATO : "contrata (cliente)"
+    USUARIO ||--o{ CONTRATO : "executa (freelancer)"
+    SERVICO ||--o{ CONTRATO : origina
+    CONTRATO ||--o{ MENSAGEM : possui
+    USUARIO ||--o{ MENSAGEM : envia
+    CONTRATO ||--o{ AVALIACAO : gera
+    USUARIO ||--o{ AVALIACAO : escreve
+    SERVICO ||--o{ AVALIACAO : recebe
+    USUARIO ||--o{ FAVORITO : salva
+    SERVICO ||--o{ FAVORITO : "é salvo em"
+    USUARIO ||--o{ NOTIFICACAO : recebe
+    SESSAO_REVOGADA {
+        string jti
+        date expiraEm
+    }

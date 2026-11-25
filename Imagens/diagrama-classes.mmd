@@ -1,0 +1,96 @@
+classDiagram
+    class Usuario {
+        +ObjectId _id
+        +String nome
+        +String email
+        +String cpf
+        +String tipoConta
+        +Number avaliacaoMedia
+        +Number totalAvaliacoes
+        +cadastrar()
+        +login()
+        +logout()
+        +recuperarSenha()
+        +redefinirSenha()
+        +atualizarPerfil()
+        +alterarTipoConta()
+    }
+    class Categoria {
+        +Number legacyId
+        +String nome
+        +String slug
+    }
+    class Servico {
+        +String nome
+        +String descricao
+        +Number preco
+        +Boolean precoNegociavel
+        +Boolean valorCombinar
+        +Boolean removido
+        +criar()
+        +listar()
+        +remover()
+    }
+    class Contrato {
+        +Number preco
+        +String tipoContratacao
+        +String status
+        +criar()
+        +aceitar()
+        +recusar()
+        +iniciar()
+        +entregar()
+        +confirmar()
+        +solicitarAjuste()
+        +proporValor()
+        +aprovarValor()
+        +cancelar()
+    }
+    class EventoNegociacao {
+        +String tipo
+        +String papel
+        +Number valor
+        +String justificativa
+        +Date data
+    }
+    class Mensagem {
+        +String texto
+        +Boolean lida
+        +enviar()
+        +marcarComoLida()
+    }
+    class Avaliacao {
+        +Number notaServico
+        +Number notaFreelancer
+        +String comentario
+        +avaliar()
+    }
+    class Favorito {
+        +favoritar()
+        +desfavoritar()
+    }
+    class Notificacao {
+        +String tipo
+        +String titulo
+        +String mensagem
+        +Boolean lida
+        +marcarComoLida()
+        +excluir()
+    }
+    class SessaoRevogada {
+        +String jti
+        +Date expiraEm
+    }
+    Usuario "1" --> "0..*" Servico : oferece
+    Categoria "1" --> "0..*" Servico : classifica
+    Usuario "1" --> "0..*" Contrato : cliente
+    Usuario "1" --> "0..*" Contrato : freelancer
+    Servico "1" --> "0..*" Contrato : origina
+    Contrato "1" *-- "0..*" EventoNegociacao : historico
+    Contrato "1" --> "0..*" Mensagem : possui
+    Contrato "1" --> "0..*" Avaliacao : gera
+    Usuario "1" --> "0..*" Mensagem : remetente
+    Usuario "1" --> "0..*" Avaliacao : autor
+    Usuario "1" --> "0..*" Favorito : salva
+    Servico "1" --> "0..*" Favorito : é salvo em
+    Usuario "1" --> "0..*" Notificacao : recebe
