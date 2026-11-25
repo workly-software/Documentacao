@@ -403,7 +403,7 @@ O banco é **não relacional (MongoDB)**. Os modelos abaixo seguem a sequência 
 [![Modelo conceitual do banco de dados](Imagens/er-conceitual.png)](Imagens/er-conceitual.png)
 **Clique na imagem para ampliar** 🔍
 
-> Código-fonte editável do diagrama (Mermaid): [Imagens/diagramas/er-conceitual.mmd](Imagens/diagramas/er-conceitual.mmd)
+> Código-fonte editável do diagrama (Mermaid): [Imagens/diagramas/er-conceitual.mmd](Imagens/er-conceitual.mmd)
 
 O **contrato** é o centro do modelo: liga cliente, freelancer e serviço e é a origem das mensagens, avaliações e notificações.
 
@@ -414,7 +414,7 @@ No MongoDB, os relacionamentos são feitos por **referência** (`ObjectId`). Os 
 [![Modelo lógico do banco de dados](Imagens/er-logico.png)](Imagens/er-logico.png)
 **Clique na imagem para ampliar** 🔍
 
-> Código-fonte editável do diagrama (Mermaid): [Imagens/diagramas/er-logico.mmd](Imagens/diagramas/er-logico.mmd)
+> Código-fonte editável do diagrama (Mermaid): [Imagens/diagramas/er-logico.mmd](Imagens/er-logico.mmd)
 
 **Valores de domínio**
 
@@ -513,7 +513,7 @@ O diagrama representa os modelos da aplicação (classes Mongoose). Os métodos 
 [![Diagrama de classes](Imagens/diagrama-classes.png)](Imagens/diagrama-classes.png)
 **Clique na imagem para ampliar** 🔍
 
-> Código-fonte editável do diagrama (Mermaid): [Imagens/diagramas/diagrama-classes.mmd](Imagens/diagramas/diagrama-classes.mmd)
+> Código-fonte editável do diagrama (Mermaid): [Imagens/diagramas/diagrama-classes.mmd](Imagens/diagrama-classes.mmd)
 
 > Diagrama da primeira versão: [Imagens/Workly.vpd.png](Imagens/Workly.vpd.png).
 
@@ -590,20 +590,20 @@ A paleta transmite profissionalismo, confiança e modernidade, com o verde como 
 
 | Amostra | Uso | Token | Código |
 |:-------:|-----|-------|--------|
-| <img src="Imagens/cores/04bf55.png" width="32" height="32" alt="#04BF55"> | Primária | `workly-primary` | `#04BF55` |
-| <img src="Imagens/cores/039447.png" width="32" height="32" alt="#039447"> | Primária escura | `workly-primary-dark` | `#039447` |
-| <img src="Imagens/cores/0fce6a.png" width="32" height="32" alt="#0FCE6A"> | Destaque (glow) | `workly-primary-glow` | `#0FCE6A` |
-| <img src="Imagens/cores/037a3a.png" width="32" height="32" alt="#037A3A"> | Texto/links sobre claro | `workly-primary-ink` | `#037A3A` |
-| <img src="Imagens/cores/05452a.png" width="32" height="32" alt="#05452A"> | Verde profundo | `workly-deep` | `#05452A` |
-| <img src="Imagens/cores/f5f3ee.png" width="32" height="32" alt="#F5F3EE"> | Fundo claro | `workly-background` | `#F5F3EE` |
-| <img src="Imagens/cores/efece5.png" width="32" height="32" alt="#EFECE5"> | Superfície alternativa | `workly-surface-muted` | `#EFECE5` |
-| <img src="Imagens/cores/ddd8cc.png" width="32" height="32" alt="#DDD8CC"> | Borda | `workly-border` | `#DDD8CC` |
-| <img src="Imagens/cores/16211b.png" width="32" height="32" alt="#16211B"> | Texto | `workly-text` | `#16211B` |
-| <img src="Imagens/cores/5e6862.png" width="32" height="32" alt="#5E6862"> | Texto secundário | `workly-text-muted` | `#5E6862` |
-| <img src="Imagens/cores/0c1411.png" width="32" height="32" alt="#0C1411"> | Fundo escuro | `workly-dark-background` | `#0C1411` |
-| <img src="Imagens/cores/131d19.png" width="32" height="32" alt="#131D19"> | Superfície escura | `workly-dark-surface` | `#131D19` |
-| <img src="Imagens/cores/ecebe5.png" width="32" height="32" alt="#ECEBE5"> | Texto no escuro | `workly-dark-text` | `#ECEBE5` |
-| <img src="Imagens/cores/4ade80.png" width="32" height="32" alt="#4ADE80"> | Destaque no escuro | `workly-dark-accent` | `#4ADE80` |
+| <img src="Imagens/04bf55.png" width="32" height="32" alt="#04BF55"> | Primária | `workly-primary` | `#04BF55` |
+| <img src="Imagens/039447.png" width="32" height="32" alt="#039447"> | Primária escura | `workly-primary-dark` | `#039447` |
+| <img src="Imagens/0fce6a.png" width="32" height="32" alt="#0FCE6A"> | Destaque (glow) | `workly-primary-glow` | `#0FCE6A` |
+| <img src="Imagens/037a3a.png" width="32" height="32" alt="#037A3A"> | Texto/links sobre claro | `workly-primary-ink` | `#037A3A` |
+| <img src="Imagens/05452a.png" width="32" height="32" alt="#05452A"> | Verde profundo | `workly-deep` | `#05452A` |
+| <img src="Imagens/f5f3ee.png" width="32" height="32" alt="#F5F3EE"> | Fundo claro | `workly-background` | `#F5F3EE` |
+| <img src="Imagens/efece5.png" width="32" height="32" alt="#EFECE5"> | Superfície alternativa | `workly-surface-muted` | `#EFECE5` |
+| <img src="Imagens/ddd8cc.png" width="32" height="32" alt="#DDD8CC"> | Borda | `workly-border` | `#DDD8CC` |
+| <img src="Imagens/16211b.png" width="32" height="32" alt="#16211B"> | Texto | `workly-text` | `#16211B` |
+| <img src="Imagens/5e6862.png" width="32" height="32" alt="#5E6862"> | Texto secundário | `workly-text-muted` | `#5E6862` |
+| <img src="Imagens/0c1411.png" width="32" height="32" alt="#0C1411"> | Fundo escuro | `workly-dark-background` | `#0C1411` |
+| <img src="Imagens/131d19.png" width="32" height="32" alt="#131D19"> | Superfície escura | `workly-dark-surface` | `#131D19` |
+| <img src="Imagens/ecebe5.png" width="32" height="32" alt="#ECEBE5"> | Texto no escuro | `workly-dark-text` | `#ECEBE5` |
+| <img src="Imagens/4ade80.png" width="32" height="32" alt="#4ADE80"> | Destaque no escuro | `workly-dark-accent` | `#4ADE80` |
 
 ### 🔤 Tipografia
 
